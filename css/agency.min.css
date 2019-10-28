@@ -575,3 +575,15 @@ ul.social-buttons li a{
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover{
     background-color:#EA6F35
 }
+
+
+.app-container{
+    justify-content: center;
+
+}
+.app-item{
+    width:fit-content;
+    flex: unset!important;
+    max-width: unset!important;
+
+}
