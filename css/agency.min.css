@@ -584,6 +584,6 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
 .app-item{
     width:fit-content;
     flex: unset!important;
-    max-width: unset!important;
+    /* max-width: unset!important; */
 
 }
