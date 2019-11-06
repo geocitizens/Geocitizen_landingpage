@@ -4,7 +4,7 @@
     "version": "5.2.2",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "deploy": "aws s3 sync --delete ./ s3://geocitizen.landingpage && aws cloudfront create-invalidation --distribution-id E1AF2NDCEW83HO  --paths /index.html"
+        "deploy": "aws s3 sync --delete ./ s3://geocitizen.landingpage && aws cloudfront create-invalidation --distribution-id E1AF2NDCEW83HO  --paths /index.html /img/*"
    
     },
     "description": "Agency is a one page HTML theme for Bootstrap.",
